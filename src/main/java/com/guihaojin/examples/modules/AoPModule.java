@@ -5,9 +5,7 @@ import com.google.inject.matcher.Matchers;
 import com.guihaojin.examples.MessageLogger;
 import com.guihaojin.examples.MessageSentLoggable;
 
-import java.util.regex.Matcher;
-
-public class AOPModule extends AbstractModule {
+public class AoPModule extends AbstractModule {
 
     @Override
     protected void configure() {
